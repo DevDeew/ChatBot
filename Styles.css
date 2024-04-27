@@ -31,3 +31,9 @@ body{
     color: white;
     border: none;
 }
+
+.bar{
+    background-color: #464b55;
+    padding: 10px;
+    display: flex;
+}
