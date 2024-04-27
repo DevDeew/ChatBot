@@ -1,5 +1,8 @@
 body{
     background-color: gray;
+    color: #FFF;
+    padding: 0;
+    margin: 0;
 }
 #chat-container {
     width: 400px;
