@@ -25,7 +25,7 @@ document.addEventListener("DOMContentLoaded", function() {
         // En este ejemplo, simplemente generaremos una respuesta aleatoria.
         var botResponse = generateBotResponse();
         appendBotMessage(botResponse);
-
+                
         userInput.value = "";
         chatLog.scrollTop = chatLog.scrollHeight;
     }
