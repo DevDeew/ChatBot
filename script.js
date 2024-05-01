@@ -38,7 +38,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
     sendButton.addEventListener("click", processUserInput);
     userInput.addEventListener("keydown", function(event) {
-        if (event.key === 'Enter') { // 13 corresponde a la tecla Enter
+        if (event.key === 'Enter') { 
             processUserInput();
         }
     });
